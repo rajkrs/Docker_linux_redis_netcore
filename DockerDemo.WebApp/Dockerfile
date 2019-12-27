@@ -6,7 +6,7 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
 WORKDIR /src
-COPY ["./DockerDemo.WebApp/DockerDemo.WebApp.csproj", "DockerDemo.WebApp/"]
+COPY ["DockerDemo.WebApp.csproj", "DockerDemo.WebApp/"]
 RUN dotnet restore "DockerDemo.WebApp/DockerDemo.WebApp.csproj"
 COPY . .
 WORKDIR "/src/DockerDemo.WebApp"

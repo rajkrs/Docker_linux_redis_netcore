@@ -7,8 +7,8 @@ services:
       target: 6379
   dockerdemo.webapp:
     build:
-      context: D:\repos\docker\linux_redis_netcore\linux_redis_netcore
-      dockerfile: DockerDemo.WebApp/Dockerfile
+      context: D:\repos\docker\Docker_linux_redis_netcore
+      dockerfile: DockerDemo.WebApp/Dockerfile.dev
     depends_on:
     - dockerdemo.redis
     environment:

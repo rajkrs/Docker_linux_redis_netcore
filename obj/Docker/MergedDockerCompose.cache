@@ -1,0 +1,19 @@
+services:
+  dockerdemo.redis:
+    container_name: dockerdemo.redis.demo
+    image: redis:latest
+    ports:
+    - published: 6868
+      target: 6379
+  dockerdemo.webapp:
+    build:
+      context: D:\repos\docker\linux_redis_netcore\linux_redis_netcore
+      dockerfile: DockerDemo.WebApp/Dockerfile
+    depends_on:
+    - dockerdemo.redis
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: dockerdemowebapp
+    ports:
+    - target: 80
+version: '3.4'

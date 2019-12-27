@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+    dockerdemo.webapp:
+        image: ${DOCKER_REGISTRY-}dockerdemowebapp
+        build:
+            context: .
+            dockerfile: DockerDemo.WebApp/Dockerfile
+        depends_on:
+            - dockerdemo.redis
+
+    dockerdemo.redis:
+        container_name: "dockerdemo.redis.demo"
+        image: redis:latest
+        ports:
+        - "6868:6379"
+            

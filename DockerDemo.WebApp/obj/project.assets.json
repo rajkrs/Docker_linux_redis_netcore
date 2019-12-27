@@ -12662,11 +12662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\docker\\linux_redis_netcore\\linux_redis_netcore\\DockerDemo.WebApp\\DockerDemo.WebApp.csproj",
+      "projectUniqueName": "D:\\repos\\docker\\Docker_linux_redis_netcore\\DockerDemo.WebApp\\DockerDemo.WebApp.csproj",
       "projectName": "DockerDemo.WebApp",
-      "projectPath": "D:\\repos\\docker\\linux_redis_netcore\\linux_redis_netcore\\DockerDemo.WebApp\\DockerDemo.WebApp.csproj",
+      "projectPath": "D:\\repos\\docker\\Docker_linux_redis_netcore\\DockerDemo.WebApp\\DockerDemo.WebApp.csproj",
       "packagesPath": "C:\\Users\\raj.kumar1\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\docker\\linux_redis_netcore\\linux_redis_netcore\\DockerDemo.WebApp\\obj\\",
+      "outputPath": "D:\\repos\\docker\\Docker_linux_redis_netcore\\DockerDemo.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

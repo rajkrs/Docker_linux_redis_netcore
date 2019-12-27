@@ -5,7 +5,7 @@ services:
         image: ${DOCKER_REGISTRY-}dockerdemowebapp
         build:
             context: .
-            dockerfile: DockerDemo.WebApp/Dockerfile
+            dockerfile: DockerDemo.WebApp/Dockerfile.dev
         depends_on:
             - dockerdemo.redis
 

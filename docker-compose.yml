@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
     dockerdemo.webapp:
-        image: ${DOCKER_REGISTRY-}rajkrs/dockerdemowebapp
+        image: ${DOCKER_REGISTRY-}dockerdemowebapp
         build:
             context: .
             dockerfile: DockerDemo.WebApp/Dockerfile.dev

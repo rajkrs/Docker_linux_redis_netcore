@@ -61,3 +61,4 @@ D:\repos\docker\Docker_linux_redis_netcore\DockerDemo.WebApp\obj\Debug\netcoreap
 D:\repos\docker\Docker_linux_redis_netcore\DockerDemo.WebApp\obj\Debug\netcoreapp2.2\DockerDemo.WebApp.dll
 D:\repos\docker\Docker_linux_redis_netcore\DockerDemo.WebApp\obj\Debug\netcoreapp2.2\DockerDemo.WebApp.pdb
 D:\repos\docker\Docker_linux_redis_netcore\DockerDemo.WebApp\obj\Debug\netcoreapp2.2\DockerDemo.WebApp.csproj.CopyComplete
+D:\repos\docker\Docker_linux_redis_netcore\DockerDemo.WebApp\obj\Debug\netcoreapp2.2\DockerDemo.WebApp.csprojAssemblyReference.cache

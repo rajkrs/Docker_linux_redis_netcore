@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: mssample-services-app
-          image: dockerhub.io/rajkrs/docker_linux_redis_netcore:latest
+          image: rajkrs/docker_linux_redis_netcore:latest
           ports:
             - containerPort: 80
 ---
